@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Design</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="icon" href="./images/img.jpg">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+      .gradient-text {
+        background: radial-gradient(circle, #FFFFFF, #5badf5);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+    </style>
+  </head>
+
+  <body class="bg-black font-poppins container mx-auto px-4 sm:px-6 lg:px-24">
+    
+    <!-- HomePage -->
+     <section class="py-20 relative">
+      <div class="flex flex-wrap flex-col items-center justify-center gap-10" data-aos="fade-up">
+        <div class="flex flex-wrap flex-col">
+          <div class="flex flex-wrap">
+            <p class="text-white text-2xl">Graphic Designer</p>
+          </div>
+          <div class="flex flex-wrap">
+            <h1 class="text-2xl md:text-9xl font-bold gradient-text">PORTFOLIO</h1>
+          </div>
+        </div>
+      </div>
+     </section>
+
+    <!-- About -->
+    <section class="py-20 text-white">
+      <div class="flex flex-wrap items-center justify-evenly w-full">
+        <div class="flex flex-wrap flex-col gap-6 mb-10 md:mb-0" data-aos="fade-up">
+          <h2 class="text-2xl font-bold">Hey!</h2>
+          <p class="text-lg">
+            <span class="flex md:block">I'm Karthick, a passionate Graphic Designer/UI-UX</span>
+            <span class="flex md:block"> Enthusiast, breathing life into ideas through the</span>
+            <span class="flex md:block">my portfolio to see how I turn ideas into</span>
+            <span class="flex md:block">magic of design and technology.</span>
+          </p>
+          <p class="font-semibold">Software Skills</p>
+          <div class="flex flex-wrap gap-6">
+               <img class="h-8 w-8" src="./images/figma.svg" alt="">
+               <img class="h-8 w-8" src="./images/illustrator.svg" alt="">
+               <img class="h-8 w-8" src="./images/photoshop.svg" alt="">
+          </div>
+        </div>
+        <div class="relative flex flex-wrap justify-center items-center gap-6" data-aos="fade-up">
+          <img src="./images/picture/bg.svg" alt="Background" class="w-80 h-80 z-0">
+          <img src="./images/picture/pin1.svg" alt="Pin" class="absolute top-7 left-1/2 transform -translate-x-1/2 -translate-y-1/4 w-52 h-52 z-10">
+          <img src="./images/picture/img.png" alt="Content Image" class="absolute inset-0 m-auto w-64 rotate-[1deg] h-64 object-cover rounded-lg z-1 right-2">
+        </div>
+      </div>
+    </section>
+
+    <!-- LogoFolio -->
+    <section class="py-20">
+      <div class="flex flex-wrap flex-col justify-center">
+        <div class="flex flex-wrap" data-aos="fade-up">
+          <h1 class="text-2xl font-bold gradient-text">Recent Designs</h1>
+        </div>
+        <div class="flex flex-wrap items-center justify-center md:justify-evenly w-full gap-10 mt-10">
+          <img src="./images/designs/cre.png" alt="" data-aos="zoom-in" data-aos-delay="100">
+          <img src="./images/designs/headphones.png" alt="" data-aos="zoom-in" data-aos-delay="200">
+          <img src="./images/designs/shoes.png" alt="" data-aos="zoom-in" data-aos-delay="300">
+          <img src="./images/designs/editor.png" alt="" data-aos="zoom-in" data-aos-delay="400">
+          <img src="./images/designs/fries.png" alt="" data-aos="zoom-in" data-aos-delay="500">
+          <img src="./images/designs/cre.png" alt="" data-aos="zoom-in" data-aos-delay="600">
+        </div>
+      </div>
+    </section>
+
+    <!-- SocialMedia -->
+     <section class="py-20">
+       <div class="flex flex-wrap items-center justify-evenly w-full">
+          <div class="flex flex-wrap flex-col gap-6">
+               <h2 class="gradient-text font-semibold">Course Tasks</h2>
+               <img src="./images/course/iphone.png" alt="">
+          </div>
+          <div class="flex flex-wrap gap-5">
+               <img src="./images/course/world.png" alt="">
+               <img src="./images/course/india.png" alt="">
+               <img src="./images/course/tiger.png" alt="">
+               <img src="./images/course/comertion.png" alt="">
+               <img src="./images/course/nature.png" alt="">
+               <img src="./images/course/recycle.png" alt="">
+               <img src="./images/course/cofee.png" alt="">
+               <img src="./images/course/batman.png" alt="">
+               <img src="./images/course/visionpro.png" alt="">
+          </div>
+       </div>
+     </section>
+
+    <script>
+      AOS.init({
+        duration: 1000,
+        offset: 100,
+        once: true,
+      });
+    </script>
+  </body>
+</html>
